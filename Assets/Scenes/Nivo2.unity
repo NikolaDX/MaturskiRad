@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2879274, g: 0.8101785, b: 0.73296654, a: 1}
+  m_IndirectSpecularColor: {r: 0.2879274, g: 0.8101783, b: 0.73296654, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -408,7 +408,7 @@ TerrainCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854747219}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e8f5d331114864f9cb7deca1a354d0bf, type: 2}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 5574bac39adffaddc99eeb531e56ae4a, type: 2}
   m_EnableTreeColliders: 1
@@ -860,19 +860,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7523743334224514252, guid: 25b18f7dce15a8743a03ba6ef26e99a8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017173521
+      value: 0.000000017173521
       objectReference: {fileID: 0}
     - target: {fileID: 7523743334224514252, guid: 25b18f7dce15a8743a03ba6ef26e99a8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000010628859
+      value: -0.0000000010628859
       objectReference: {fileID: 0}
     - target: {fileID: 7691343787794607390, guid: 25b18f7dce15a8743a03ba6ef26e99a8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017173521
+      value: 0.000000017173521
       objectReference: {fileID: 0}
     - target: {fileID: 7691343787794607390, guid: 25b18f7dce15a8743a03ba6ef26e99a8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000010628859
+      value: -0.0000000010628859
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25b18f7dce15a8743a03ba6ef26e99a8, type: 3}

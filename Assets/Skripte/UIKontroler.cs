@@ -13,6 +13,6 @@ public class UIKontroler : MonoBehaviour
     void Update()
     {
         istovarTekst.text = "ISTOVAR: " + Mathf.Round(autoSkripta.procenatIstovara) + "%";
-        nivoTekst.text = "NIVO: " + PlayerPrefs.GetInt("nivo") + "/20";
+        nivoTekst.text = "NIVO: " + PlayerPrefs.GetInt("nivo") + "/15";
     }
 }

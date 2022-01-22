@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2879274, g: 0.8101785, b: 0.73296654, a: 1}
+  m_IndirectSpecularColor: {r: 0.2879274, g: 0.8101783, b: 0.73296654, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -544,11 +544,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2554911527846133809, guid: abb5dfaf816324a2096e60cefe256985, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017307167
+      value: 0.000000017307164
       objectReference: {fileID: 0}
     - target: {fileID: 2554911527846133809, guid: abb5dfaf816324a2096e60cefe256985, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000010711572
+      value: -0.0000000010711569
       objectReference: {fileID: 0}
     - target: {fileID: 2554911527846133809, guid: abb5dfaf816324a2096e60cefe256985, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -818,11 +818,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2423023050228947821, guid: 16cc79841eda7aaeaa0027d6aba1e50f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017307167
+      value: 0.000000017307164
       objectReference: {fileID: 0}
     - target: {fileID: 2423023050228947821, guid: 16cc79841eda7aaeaa0027d6aba1e50f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000010711572
+      value: -0.0000000010711569
       objectReference: {fileID: 0}
     - target: {fileID: 2423023050228947821, guid: 16cc79841eda7aaeaa0027d6aba1e50f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -998,7 +998,7 @@ TerrainCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810771937}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e8f5d331114864f9cb7deca1a354d0bf, type: 2}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: e8454cabe5c810c47b44c20ae1ce23c1, type: 2}
   m_EnableTreeColliders: 1
