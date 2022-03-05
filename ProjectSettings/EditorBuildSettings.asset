@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivo8.unity
     guid: de64fa46e05d5befba7797e632cb184f
+  - enabled: 1
+    path: Assets/Scenes/Nivo9.unity
+    guid: ad8bfeaef18ef55169094c7cec0b2333
   m_configObjects: {}
