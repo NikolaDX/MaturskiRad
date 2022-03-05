@@ -98,6 +98,7 @@ public class AutoKontroler : MonoBehaviour
     {
         transform.position = pocetnaPozicija;
         transform.rotation = Quaternion.Euler(0, 0, 0);
+        rb.velocity = Vector3.zero;
         procenatIstovara = 0;
     }
 

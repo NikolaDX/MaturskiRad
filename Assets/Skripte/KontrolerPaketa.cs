@@ -8,10 +8,12 @@ public class KontrolerPaketa : MonoBehaviour
     public AutoKontroler autoSkripta;
     AutoUnos autoUnos;
     Vector3 pocetnaPozicija;
+    Rigidbody rb;
     public bool ispaoPaket;
     
     private void Awake() {
         pocetnaPozicija = transform.position;
+        rb = GetComponent<Rigidbody>();
         autoUnos = new AutoUnos();
         autoUnos.Enable();
         autoUnos.Auto.Povratak.performed += c => Povratak();
@@ -31,6 +33,7 @@ public class KontrolerPaketa : MonoBehaviour
 
     private void Povratak(){
         transform.position = pocetnaPozicija;
+        rb.velocity = Vector3.zero;
         autoSkripta.pokupljenPaket = false;
     }
 
