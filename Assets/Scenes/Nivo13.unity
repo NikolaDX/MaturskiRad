@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.013962175, g: 0.07175972, b: 0.09959306, a: 1}
+  m_IndirectSpecularColor: {r: 0.013962174, g: 0.07175972, b: 0.09959307, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 340ddd786b8fc234883510ba7986fc83, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -167,11 +167,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2554911527846133809, guid: abb5dfaf816324a2096e60cefe256985, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017307167
+      value: 0.000000017307164
       objectReference: {fileID: 0}
     - target: {fileID: 2554911527846133809, guid: abb5dfaf816324a2096e60cefe256985, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000010711572
+      value: -0.0000000010711569
       objectReference: {fileID: 0}
     - target: {fileID: 2554911527846133809, guid: abb5dfaf816324a2096e60cefe256985, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -717,11 +717,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2423023050228947821, guid: 16cc79841eda7aaeaa0027d6aba1e50f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017307167
+      value: 0.000000017307164
       objectReference: {fileID: 0}
     - target: {fileID: 2423023050228947821, guid: 16cc79841eda7aaeaa0027d6aba1e50f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000010711572
+      value: -0.0000000010711569
       objectReference: {fileID: 0}
     - target: {fileID: 2423023050228947821, guid: 16cc79841eda7aaeaa0027d6aba1e50f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
