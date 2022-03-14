@@ -68,6 +68,17 @@ public partial class @AutoUnos : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
+                    ""name"": """",
+                    ""id"": ""daa79613-70f8-43aa-b447-85e3f9200713"",
+                    ""path"": ""<Gamepad>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Povratak"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""WASD"",
                     ""id"": ""acb5084b-3e42-467c-914e-1a10681592d1"",
                     ""path"": ""1DAxis"",
@@ -246,7 +257,7 @@ public partial class @AutoUnos : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""98483e4f-a312-42bc-8a20-5e1186dbf239"",
-                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -257,7 +268,7 @@ public partial class @AutoUnos : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""29a83752-21a0-4076-adc1-8ce1b5c9dd51"",
-                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

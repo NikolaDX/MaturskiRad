@@ -300,6 +300,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brzinaKretanja: 5
+  tockovi:
+  - {fileID: 2323922196535914712}
+  - {fileID: 7626630938271902405}
+  - {fileID: 7894511536248248960}
+  - {fileID: 653853936740594793}
+  brzinaRotacijeTockova: 10
 --- !u!1001 &800565706
 PrefabInstance:
   m_ObjectHideFlags: 0
