@@ -38,7 +38,15 @@ public class UcitavanjeNivoa : MonoBehaviour
         }
         if (autoSkripta.procenatIstovara == 100 && a == 1)
         {
-            SceneManager.LoadScene("Nivo" + (PlayerPrefs.GetInt("nivo") + 1).ToString());
+            UcitajNivo();
         }
+    }
+
+    public void UcitajNivo(){
+        SceneManager.LoadScene("Nivo" + (PlayerPrefs.GetInt("nivo") + 1).ToString());
+    }
+
+    public void Izlazak(){
+        Application.Quit();
     }
 }
