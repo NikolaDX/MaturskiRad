@@ -16,7 +16,7 @@ public class AutoKontroler : MonoBehaviour
     public bool pokupljenPaket = false;
     [Range(0, 100)] public float procenatIstovara;
     
-    Rigidbody rb;
+    public Rigidbody rb;
 
     public Vector3 pocetnaPozicija;
     AutoUnos autoUnos;

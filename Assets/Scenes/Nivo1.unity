@@ -360,7 +360,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: 8.1346586e+11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1058,6 +1058,18 @@ PrefabInstance:
     - target: {fileID: 604446983169051750, guid: a40b94c1195923d3aa35a544f2661c43, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113421672926358001, guid: a40b94c1195923d3aa35a544f2661c43, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896353999671601224, guid: a40b94c1195923d3aa35a544f2661c43, type: 3}
+      propertyPath: minimalnaFrekvencija
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896353999671601224, guid: a40b94c1195923d3aa35a544f2661c43, type: 3}
+      propertyPath: maksimalnaFrekvencija
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6846676760885220029, guid: a40b94c1195923d3aa35a544f2661c43, type: 3}
       propertyPath: paket
