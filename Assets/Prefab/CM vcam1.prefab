@@ -62,9 +62,9 @@ MonoBehaviour:
   m_LookaheadSmoothing: 3
   m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 5
-  m_VerticalDamping: 0
+  m_VerticalDamping: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.67
+  m_ScreenY: 0.70000005
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0

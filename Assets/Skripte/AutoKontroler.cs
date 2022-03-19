@@ -15,6 +15,9 @@ public class AutoKontroler : MonoBehaviour
     [SerializeField] LayerMask parkingSloj;
     public bool pokupljenPaket = false;
     [Range(0, 100)] public float procenatIstovara;
+    [SerializeField] AudioSource zvuk;
+    [SerializeField] AudioSource zvuk1;
+    [SerializeField] AudioSource zvuk2;
     
     public Rigidbody rb;
 
@@ -22,6 +25,9 @@ public class AutoKontroler : MonoBehaviour
     AutoUnos autoUnos;
     float horizontalniUnos;
     float vertikalniUnos;
+    public float ubrzanjeMotora;
+    bool zvukPusten = false;
+    bool bubnjevi = false;
 
     private void Start()
     {
@@ -41,15 +47,31 @@ public class AutoKontroler : MonoBehaviour
 
     private void Update() 
     {
+        ubrzanjeMotora = tockovi[2].motorTorque;
         AnimacijaTockova();
         if (istovarUToku)
         {
             Istovar();
+            if (!bubnjevi){
+                zvuk2.Play();
+                bubnjevi = true;
+            }
+            if (procenatIstovara == 100){
+                bubnjevi = false;
+                zvuk2.Stop();
+            }
+        }
+        else{
+            if (bubnjevi){
+                bubnjevi = false;
+                zvuk2.Stop();
+            }
         }
         if (transform.position.y < -10)
         {
             Povratak();
         }
+        IstovarZavrsen();
     }
 
     private void PodesavanjeAuta()
@@ -108,6 +130,7 @@ public class AutoKontroler : MonoBehaviour
         {
             other.transform.position = prikolica.position;
             pokupljenPaket = true;
+            zvuk.Play();
         }
     }
 
@@ -133,6 +156,13 @@ public class AutoKontroler : MonoBehaviour
         if (procenatIstovara > 100)
         {
             procenatIstovara = 100;
+        }
+    }
+
+    void IstovarZavrsen(){
+        if (procenatIstovara == 100 && !zvukPusten){
+            zvuk1.Play();
+            zvukPusten = true;
         }
     }
 

@@ -49,7 +49,7 @@ public partial class @AutoUnos : IInputActionCollection2, IDisposable
                     ""name"": ""VertikalnoKretanje"",
                     ""type"": ""Value"",
                     ""id"": ""7ee72137-3cec-4464-b9b3-50f0cfcead3a"",
-                    ""expectedControlType"": ""Axis"",
+                    ""expectedControlType"": ""Analog"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true

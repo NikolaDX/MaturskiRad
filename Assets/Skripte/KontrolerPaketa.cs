@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class KontrolerPaketa : MonoBehaviour
 {
     public AutoKontroler autoSkripta;
+    [SerializeField] AudioSource zvuk;
     AutoUnos autoUnos;
     Vector3 pocetnaPozicija;
     Rigidbody rb;
