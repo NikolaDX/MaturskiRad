@@ -19,14 +19,14 @@ public class ZvukMotora : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (autoSkripta.rb.velocity.magnitude < minimalnaFrekvencija){
+        if ((autoSkripta.rb.velocity.magnitude / 10) < minimalnaFrekvencija){
             izvorZvuka.pitch = minimalnaFrekvencija;
         }
-        else if (autoSkripta.rb.velocity.magnitude > maksimalnaFrekvencija){
+        else if ((autoSkripta.rb.velocity.magnitude / 10) > maksimalnaFrekvencija){
             izvorZvuka.pitch = maksimalnaFrekvencija;
         }
         else {
-            izvorZvuka.pitch = autoSkripta.rb.velocity.magnitude;
+            izvorZvuka.pitch = autoSkripta.rb.velocity.magnitude / 10;
         }
         
     }
