@@ -4,7 +4,7 @@
 ## Osnovne informacije
 Igra sadrži 15 nivoa. Cilj svakog nivoa je preuzeti paket i dostaviti ga do plavog parkinga uprkos preprekama. Žuta strelica iznad automobila je navigacija i služi da vozaču pokaže put do paketa, a nakon preuzimanja robe i put do parkinga. Sa napretkom kroz nivoe, oni postaju teži i dinamičniji. Dostupna je verzija za desktop operativne sisteme Windows, MacOS i GNU/Linux i može se igrati preko tastature ili gamepad-a. Igra je dobila naziv spanjem reči `box` (kutija, paket) i `transport`.
 
-![Nivo 1](https://github.com/NikolaDX/MaturskiRad/blob/main/Pasted image 20220425114004.png)
+![Nivo 1](https://github.com/NikolaDX/MaturskiRad/blob/main/Pasted+image+20220425114004.png)
 
 
 ## Elementi igre
