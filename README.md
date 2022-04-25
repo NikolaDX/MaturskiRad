@@ -41,7 +41,7 @@ Strelica - vodič do paketa i zadatog mesta istovara
 
 Igru možete preuzeti ![ovde](https://github.com/NikolaDX/MaturskiRad/releases).
 
-##Korišćeni asset paketi
+## Korišćeni asset paketi
 - https://www.kenney.nl/assets/car-kit
 - https://assetstore.unity.com/packages/3d/vegetation/nature-pack-low-poly-trees-bushes-210184
 - https://assetstore.unity.com/packages/2d/gui/icons/sleek-essential-ui-pack-170650
