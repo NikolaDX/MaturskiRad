@@ -39,6 +39,23 @@ Strelica - vodič do paketa i zadatog mesta istovara
 - levi analog nadesno - skretanje desno
 - BACK/SELECT - restart
 
+Igru možete preuzeti ![ovde](https://github.com/NikolaDX/MaturskiRad/releases).
+
+##Korišćeni asset paketi
+- https://www.kenney.nl/assets/car-kit
+- https://assetstore.unity.com/packages/3d/vegetation/nature-pack-low-poly-trees-bushes-210184
+- https://assetstore.unity.com/packages/2d/gui/icons/sleek-essential-ui-pack-170650
+- https://assetstore.unity.com/packages/3d/props/low-poly-crates-80037
+- https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
+- https://assetstore.unity.com/packages/2d/textures-materials/sky/customizable-skybox-174576
+- https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
+- https://freesound.org/people/LittleRainySeasons/sounds/335908/
+- https://freesound.org/people/slamaxu/sounds/509879/
+- https://freesound.org/people/HoBoTrails/sounds/424927/
+- https://www.youtube.com/watch?v=KGTusJ3-T04
+- https://www.youtube.com/watch?v=eAiAlg22gqQ
+- https://www.youtube.com/watch?v=2epdGFC0CmY
+
 
 
 
