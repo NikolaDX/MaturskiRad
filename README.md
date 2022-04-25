@@ -11,7 +11,7 @@ Igra sadrži 15 nivoa. Cilj svakog nivoa je preuzeti paket i dostaviti ga do pla
 Vozilo - njime upravlja igrač i prevozi paket do mesta istovara
 
 ![Vozilo](https://github.com/NikolaDX/MaturskiRad/blob/main/vozilo.png)
- 
+
 Paket - kutija koju treba preuzeti i dostaviti do mesta istovara
 
 ![Paket](https://github.com/NikolaDX/MaturskiRad/blob/main/paket.png)
