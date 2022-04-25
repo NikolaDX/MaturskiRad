@@ -4,7 +4,7 @@
 ## Osnovne informacije
 Igra sadrži 15 nivoa. Cilj svakog nivoa je preuzeti paket i dostaviti ga do plavog parkinga uprkos preprekama. Žuta strelica iznad automobila je navigacija i služi da vozaču pokaže put do paketa, a nakon preuzimanja robe i put do parkinga. Sa napretkom kroz nivoe, oni postaju teži i dinamičniji. Dostupna je verzija za desktop operativne sisteme Windows, MacOS i GNU/Linux i može se igrati preko tastature ili gamepad-a. Igra je dobila naziv spanjem reči `box` (kutija, paket) i `transport`.
 
-![Nivo 1](https://github.com/NikolaDX/MaturskiRad/blob/main/nivo1)
+![Nivo 1](https://github.com/NikolaDX/MaturskiRad/blob/main/nivo1.png)
 
 
 ## Elementi igre
@@ -14,15 +14,15 @@ Vozilo - njime upravlja igrač i prevozi paket do mesta istovara
  
 Paket - kutija koju treba preuzeti i dostaviti do mesta istovara
 
-![[Pasted image 20220425113548.png]]
+![Paket](https://github.com/NikolaDX/MaturskiRad/blob/main/paket.png)
 
 Mesto za istovar - mesto gde se obavlja istovar paketa
 
-![[Pasted image 20220425113557.png]]
+![Parking](https://github.com/NikolaDX/MaturskiRad/blob/main/parking.png)
 
 Strelica - vodič do paketa i zadatog mesta istovara
 
-![[Pasted image 20220425113605.png]]
+![Strelica](https://github.com/NikolaDX/MaturskiRad/blob/main/strelica.png)
 
 ## Kontrole igre
 **Kontrole (na tastaturi)**
